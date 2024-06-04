@@ -118,15 +118,38 @@
 
         <!-- ********************Summer******************************** -->
 
-        <div>
+        <div id="summerContainer">
           <div class="d-flex justify-content-between align-items-center mb-2">
             <h2>Welcome Summer</h2>
             <a class="btn text-primary" data-bs-toggle="collapse" href="#collapseSummer">Nascondi sezione</a>
           </div>
           <div class="collapse show row gx-4 gy-4 mb-5" id="collapseSummer">
-            <div class="col-6 col-md-6 col-lg-4">
-              <div class="card shadow">
+            <div class="col-6 col-md-6 col-lg-4" >
+              <div class="card shadow" onclick="hot(event)">
                 <img src="assets/img/sogno.jpg" class="card-img-top" alt="sogno" />
+                <span class="d-none btn btn-danger position-absolute top-0 end-0 mt-2 me-2 px-2 fw-bold">HOT</span>
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn bg-info">Prenota</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-6 col-lg-4" >
+              <div class="card shadow" onclick="hot(event)">
+                <img src="assets/img/sogno.jpg" class="card-img-top" alt="sogno" />
+                <span class="d-none btn btn-danger position-absolute top-0 end-0 mt-2 me-2 px-2 fw-bold">HOT</span>
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn bg-info">Prenota</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-6 col-lg-4" ">
+              <div class="card shadow " onclick="hot(event)">
+                <img src="assets/img/sogno.jpg" class="card-img-top" alt="sogno" />
+                <span class="d-none btn btn-danger position-absolute top-0 end-0 mt-2 me-2 px-2 fw-bold">HOT</span>
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -135,8 +158,10 @@
               </div>
             </div>
             <div class="col-6 col-md-6 col-lg-4">
-              <div class="card shadow">
+              <div class="card shadow"  onclick="hot(event)">
                 <img src="assets/img/sogno.jpg" class="card-img-top" alt="sogno" />
+                <span class="d-none btn btn-danger position-absolute top-0 end-0 mt-2 me-2 px-2 fw-bold">HOT</span>
+
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -144,9 +169,10 @@
                 </div>
               </div>
             </div>
-            <div class="col-6 col-md-6 col-lg-4">
-              <div class="card shadow">
+            <div class="col-6 col-md-6 col-lg-4" >
+              <div class="card shadow" onclick="hot(event)">
                 <img src="assets/img/sogno.jpg" class="card-img-top" alt="sogno" />
+                <span class="d-none btn btn-danger position-absolute top-0 end-0 mt-2 me-2 px-2 fw-bold">HOT</span>
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -154,29 +180,10 @@
                 </div>
               </div>
             </div>
-            <div class="col-6 col-md-6 col-lg-4">
-              <div class="card shadow">
+            <div class="col-6 col-md-6 col-lg-4" >
+              <div class="card shadow" onclick="hot(event)">
                 <img src="assets/img/sogno.jpg" class="card-img-top" alt="sogno" />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn bg-info">Prenota</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-6 col-md-6 col-lg-4">
-              <div class="card shadow">
-                <img src="assets/img/sogno.jpg" class="card-img-top" alt="sogno" />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn bg-info">Prenota</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-6 col-md-6 col-lg-4">
-              <div class="card shadow">
-                <img src="assets/img/sogno.jpg" class="card-img-top" alt="sogno" />
+                <span class="d-none btn btn-danger position-absolute top-0 end-0 mt-2 me-2 px-2 fw-bold">HOT</span>
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -298,5 +305,6 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="viaggi.js"></script>
   </body>
 </html>
